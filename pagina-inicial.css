@@ -59,6 +59,10 @@ header button{
     width: 20px;
 }
 
+header a{
+    text-decoration: none;
+}
+
 main{
     display: flex;
     align-items: center;
