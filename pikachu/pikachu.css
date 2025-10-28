@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header{
+    display: flex;    
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    height: 10vh;
+    background-color: #E6FFF2;
+    text-decoration: none;
+    color: black;
+    font-family: "Poppins", sans-serif;
+}
+
+header img{
+    width: 200px;
+    height: auto;
+    cursor: pointer;
+}
+
+header ul{
+    font-size: 18px;
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+.header-item{
+    text-decoration: none;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color:#19784a;
+    margin-right: 100px;
+}
+
+header button{
+    background-color:#61B58C;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    height: 32px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#logo-github{
+    width: 20px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E6FFF2;
+    width: 100vw;
+    height: 80vh;
+}
+
+main h2{
+    margin-bottom: 10px;
+}
+
+#escolha{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    text-decoration: none;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    font-style: normal;
+    color:#19784a;
+}
+
+.conj-habilidades{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 5px solid rgb(222, 186, 27);
+    border-radius: 20px;
+    padding: 50px;
+}
+
+.conj-habilidades h1{
+    margin-bottom: 10px;
+}
+
+.conj-habilidades img{
+    width: 200px;
+}
+
+main button{
+    margin-top: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: #61B58C;
+    color: white;
+    font-size: 20px;
+    width: 300px;
+    height: 50px;
+}
+
+#img-poke{
+    border-radius: 60px;
+    box-shadow: 1px 1px 90px rgb(182, 182, 182) ;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 10vh;
+    background-color: #E6FFF2;
+}
+
+#logo-footer{
+    width: 90px;
+    margin-bottom: 20px;
+}
