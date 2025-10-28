@@ -10,7 +10,7 @@
 header{
     display: flex;    
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     width: 100vw;
     height: 10vh;
     background-color: #E6FFF2;
@@ -39,6 +39,7 @@ header ul{
     font-weight: 700;
     font-style: normal;
     color:#19784a;
+    margin-right: 100px;
 }
 
 header button{
@@ -61,35 +62,97 @@ header button{
 
 main{
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
     background-color: #E6FFF2;
     width: 100vw;
     height: 80vh;
 }
-.parte1{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+main h1{
+    margin-top: 85px;
+    margin-bottom: 80px;
+    text-decoration: none;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    font-style: normal;
+    color:#19784a;
 }
 
 section{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 50px;
-    color: #61B58C;
-    text-shadow: 2px 2px 90px rgb(182, 182, 182) ;
+    gap: 30px;
 }
 
-main button{
+.pt1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pt1 img{
+    border-radius: 60px;
+    box-shadow: 1px 1px 90px rgb(182, 182, 182) ;
+    margin-bottom: 30px;
+}
+
+.pt1 button{
     border: none;
     cursor: pointer;
     border-radius: 50px;
     background-color: #61B58C;
     color: white;
-    padding: 35px;
     font-size: 20px;
+    width: 300px;
+    height: 80px;
+}
+
+.pt2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pt2 img{
+    border-radius: 60px;
+    box-shadow: 1px 1px 90px rgb(182, 182, 182) ;
+    margin-bottom: 30px;
+}
+
+.pt2 button{
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: #61B58C;
+    color: white;
+    font-size: 20px;
+    width: 300px;
+    height: 80px;
+}
+
+.pt3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pt3 img{
+    border-radius: 60px;
+    box-shadow: 1px 1px 90px rgb(182, 182, 182) ;
+    margin-bottom: 30px;
+}
+
+.pt3 button{
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: #61B58C;
+    color: white;
+    font-size: 20px;
+    width: 300px;
+    height: 80px;
 }
 
 #img-poke{
@@ -110,5 +173,3 @@ footer{
     width: 90px;
     margin-bottom: 20px;
 }
-
-/*charmander
